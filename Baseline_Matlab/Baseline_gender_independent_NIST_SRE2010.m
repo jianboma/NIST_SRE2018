@@ -184,7 +184,7 @@ scores = scores(linearInd); % select the valid trials
 
 labels = C{1,3};
 
-[eer,DCF08,DCF10] = compute_eer(scores1, labels, true);
+[eer,DCF08,DCF10] = compute_eer(scores, labels, true);
 [eer,DCF08,DCF10] % eer and dcf values
 
 
